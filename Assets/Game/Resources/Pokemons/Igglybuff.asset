@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Igglybuff
+  m_EditorClassIdentifier: 
+  name: Igglybuff
+  description: 
+  frontSprite: {fileID: 21300000, guid: 52665ccc85159604fb7d98793f4d2bfa, type: 3}
+  backSprite: {fileID: 21300000, guid: b2e92790d6bc25b4eb8c24dc21d68a70, type: 3}
+  partySprite: {fileID: 21300000, guid: 31ea4d9b99d5a97409721aa25c8a962a, type: 3}
+  type1: 18
+  type2: 1
+  maxHp: 90
+  attack: 30
+  defense: 15
+  spAttack: 40
+  spDefense: 20
+  speed: 15
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: cf6a8c403f490a0439871461ff941e83, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c61a4d38b78b1344193a0e6e4d85bdbf, type: 2}
+    level: 1

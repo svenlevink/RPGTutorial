@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Victreebel
+  m_EditorClassIdentifier: 
+  name: Victreebel
+  description: 
+  frontSprite: {fileID: 21300000, guid: 8eec2407527516c41a17f20fa6f82fdb, type: 3}
+  backSprite: {fileID: 21300000, guid: 961c2dc14d509ec4cba53c249314c4fd, type: 3}
+  partySprite: {fileID: 21300000, guid: af4284ee8f17eb94db6e58d26910b52d, type: 3}
+  type1: 4
+  type2: 7
+  maxHp: 80
+  attack: 105
+  defense: 65
+  spAttack: 100
+  spDefense: 70
+  speed: 70
+  expYield: 221
+  growthRate: 2
+  catchRate: 45
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 72b119d87a51d484db2dbe0bcd4efcad, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ee1533510cdb1a640a7243b95a426dc9, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b3d9d143edcbdcf448291f128b57d24b, type: 2}
+    level: 1

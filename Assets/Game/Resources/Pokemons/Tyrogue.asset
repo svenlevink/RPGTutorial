@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Tyrogue
+  m_EditorClassIdentifier: 
+  name: Tyrogue
+  description: 
+  frontSprite: {fileID: 21300000, guid: 9c1f29d943729b84f908aaceffdeebec, type: 3}
+  backSprite: {fileID: 21300000, guid: bb01d4e0edfa3de4da5e57693900dd45, type: 3}
+  partySprite: {fileID: 21300000, guid: a9329e359352a204a8751c18e3677220, type: 3}
+  type1: 6
+  type2: 0
+  maxHp: 35
+  attack: 35
+  defense: 35
+  spAttack: 35
+  spDefense: 35
+  speed: 35
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: a954827ca2f43df48b629adc832050b4, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 838a4c57c099f7443b4ba72e3842bf26, type: 2}
+    level: 1

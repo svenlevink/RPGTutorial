@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Charmander
+  m_EditorClassIdentifier: 
+  name: Charmander
+  description: 
+  frontSprite: {fileID: 21300000, guid: cd259d9d4f8ba2749a16d1cc64d46bec, type: 3}
+  backSprite: {fileID: 21300000, guid: f114fdbc4fcce83418502d637a86952f, type: 3}
+  partySprite: {fileID: 21300000, guid: 88b28a535cb36a64b9778eaba5fdb0fe, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 39
+  attack: 52
+  defense: 43
+  spAttack: 60
+  spDefense: 50
+  speed: 65
+  expYield: 0
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 664cd4c35594b6649b9048d17e57d232, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 14d46ffeb329ae64aa22297164466f4d, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: a2f01a1d9815f9249bd2476d3974558a, type: 2}
+    level: 14
+  learnableByItems:
+  - {fileID: 11400000, guid: da6eec0be6c4d88498701832565a2c9c, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 56c7b59dc336008439757d3430dd643f, type: 2}
+    requiredLevel: 16

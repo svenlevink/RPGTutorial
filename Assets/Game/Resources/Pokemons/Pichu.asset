@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Pichu
+  m_EditorClassIdentifier: 
+  name: Pichu
+  description: 
+  frontSprite: {fileID: 21300000, guid: 2e984f2e6d274aa42930df1570304029, type: 3}
+  backSprite: {fileID: 21300000, guid: 2442a7f8b85a1c04c8de7d01f1647088, type: 3}
+  partySprite: {fileID: 21300000, guid: 7ee21f2a663319944b39bc5eee72201e, type: 3}
+  type1: 8
+  type2: 0
+  maxHp: 20
+  attack: 40
+  defense: 15
+  spAttack: 35
+  spDefense: 35
+  speed: 60
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 2
+  - moveBase: {fileID: 11400000, guid: cf6a8c403f490a0439871461ff941e83, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 0259e8f18c562144c8798eb9a584bcbc, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 2156be8ab4701cd468d5f0da01e79344, type: 2}
+    level: 4

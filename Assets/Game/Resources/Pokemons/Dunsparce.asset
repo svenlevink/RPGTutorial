@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Dunsparce
+  m_EditorClassIdentifier: 
+  name: Dunsparce
+  description: 
+  frontSprite: {fileID: 21300000, guid: 08e9734da4f0887479358849a27e9157, type: 3}
+  backSprite: {fileID: 21300000, guid: 74c77ecdce08b104eada844b1c3f2f28, type: 3}
+  partySprite: {fileID: 21300000, guid: a5c65d268ab5fa9488036fb8bb31034e, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 100
+  attack: 70
+  defense: 70
+  spAttack: 65
+  spDefense: 65
+  speed: 45
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 664cd4c35594b6649b9048d17e57d232, type: 2}
+    level: 1

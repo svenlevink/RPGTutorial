@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Quilava
+  m_EditorClassIdentifier: 
+  name: Quilava
+  description: 
+  frontSprite: {fileID: 21300000, guid: 752ab0fc319407d408849753d6ac60e5, type: 3}
+  backSprite: {fileID: 21300000, guid: e04d80958a436cd4c8b85218ec6597af, type: 3}
+  partySprite: {fileID: 21300000, guid: 60a1b0e4fb54f874bae21b5fe9763d46, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 58
+  attack: 64
+  defense: 58
+  spAttack: 80
+  spDefense: 65
+  speed: 80
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 664cd4c35594b6649b9048d17e57d232, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a2f01a1d9815f9249bd2476d3974558a, type: 2}
+    level: 1

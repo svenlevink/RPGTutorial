@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Magby
+  m_EditorClassIdentifier: 
+  name: Magby
+  description: 
+  frontSprite: {fileID: 21300000, guid: ccf440fd2d022284eb23f6b553499308, type: 3}
+  backSprite: {fileID: 21300000, guid: f032440693edcb44fb956e90e06c6b17, type: 3}
+  partySprite: {fileID: 21300000, guid: c0d43284f82e7c14f96e41b686fbffee, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 45
+  attack: 75
+  defense: 37
+  spAttack: 70
+  spDefense: 55
+  speed: 83
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: c70a98ea0e650f24b8484c10291e3014, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 838a4c57c099f7443b4ba72e3842bf26, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 14d46ffeb329ae64aa22297164466f4d, type: 2}
+    level: 1

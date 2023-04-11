@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Porygon2
+  m_EditorClassIdentifier: 
+  name: Porygon2
+  description: 
+  frontSprite: {fileID: 21300000, guid: 44b994e23e4760e4f90df67bc158b8c6, type: 3}
+  backSprite: {fileID: 21300000, guid: 5c07015fdb71d0642bfa78423b0100e8, type: 3}
+  partySprite: {fileID: 21300000, guid: 6089bd150000f2c45947025bcb56d92f, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 85
+  attack: 80
+  defense: 90
+  spAttack: 105
+  spDefense: 95
+  speed: 60
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 62dfcd2b605d94240ba4fe9256ede196, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 61895cbc70e46cd4b9d2eb5a35a95958, type: 2}
+    level: 1

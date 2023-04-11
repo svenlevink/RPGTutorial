@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Flaaffy
+  m_EditorClassIdentifier: 
+  name: Flaaffy
+  description: 
+  frontSprite: {fileID: 21300000, guid: 07647d1de1cb4844d8770359aecf3085, type: 3}
+  backSprite: {fileID: 21300000, guid: 6ac6b9c833484cd48958dd8b8acdb5cb, type: 3}
+  partySprite: {fileID: 21300000, guid: d79eaf8c09f683243a523a445bc5cee3, type: 3}
+  type1: 8
+  type2: 0
+  maxHp: 70
+  attack: 55
+  defense: 55
+  spAttack: 80
+  spDefense: 60
+  speed: 45
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0259e8f18c562144c8798eb9a584bcbc, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 838a4c57c099f7443b4ba72e3842bf26, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bfb30b639b7fab54da0daaa60acd06e3, type: 2}
+    level: 1

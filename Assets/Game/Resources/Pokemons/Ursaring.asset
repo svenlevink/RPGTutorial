@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Ursaring
+  m_EditorClassIdentifier: 
+  name: Ursaring
+  description: 
+  frontSprite: {fileID: 21300000, guid: dde04c580ac9d8246838f92bb71c84ed, type: 3}
+  backSprite: {fileID: 21300000, guid: 193578e5f051b1848a6f3ebd75c5b123, type: 3}
+  partySprite: {fileID: 21300000, guid: 50a76bb86c3c1184bb332fc768940ef9, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 90
+  attack: 130
+  defense: 75
+  spAttack: 75
+  spDefense: 75
+  speed: 55
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 5876ee2cfd5447e4482591de25ca92a5, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3ef46184be0df124188a36eabe086ffa, type: 2}
+    level: 2
+  - moveBase: {fileID: 11400000, guid: 34ad7d3bda90a50448b473ba1d7238d8, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 80994973e61264f4e954f177b700d20b, type: 2}
+    level: 8

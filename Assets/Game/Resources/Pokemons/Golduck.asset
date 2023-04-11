@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Golduck
+  m_EditorClassIdentifier: 
+  name: Golduck
+  description: 
+  frontSprite: {fileID: 21300000, guid: 1797d8cc329a07846a1c07d88a8d2309, type: 3}
+  backSprite: {fileID: 21300000, guid: 5d48de1ffba4a844c972e7afbb06b33e, type: 3}
+  partySprite: {fileID: 21300000, guid: b1308e50f906f2541af99190bb47b548, type: 3}
+  type1: 3
+  type2: 0
+  maxHp: 80
+  attack: 82
+  defense: 78
+  spAttack: 95
+  spDefense: 80
+  speed: 85
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 72b119d87a51d484db2dbe0bcd4efcad, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b3eb02e97c09439498379ac17c64ac5c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bdb39ad612827ef44bc7bdd6b5f7308c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bfa3ebe235ae38a48adf4af2d8f946cd, type: 2}
+    level: 1

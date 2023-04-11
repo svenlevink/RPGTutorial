@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Omastar
+  m_EditorClassIdentifier: 
+  name: Omastar
+  description: 
+  frontSprite: {fileID: 21300000, guid: 33e0227b62b05254abea4cd630cfa0fe, type: 3}
+  backSprite: {fileID: 21300000, guid: db840fc836108244bb2ca633c4a482b1, type: 3}
+  partySprite: {fileID: 21300000, guid: df24f1bfb4a64804187cec0ec71e3182, type: 3}
+  type1: 3
+  type2: 10
+  maxHp: 70
+  attack: 60
+  defense: 125
+  spAttack: 115
+  spDefense: 70
+  speed: 55
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 72b119d87a51d484db2dbe0bcd4efcad, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bdb39ad612827ef44bc7bdd6b5f7308c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3ef46184be0df124188a36eabe086ffa, type: 2}
+    level: 1

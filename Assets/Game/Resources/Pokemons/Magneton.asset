@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Magneton
+  m_EditorClassIdentifier: 
+  name: Magneton
+  description: 
+  frontSprite: {fileID: 21300000, guid: 77df28ce227897049959c0661cb60609, type: 3}
+  backSprite: {fileID: 21300000, guid: 52ff480192025364d9dc9d6fe76d5cc8, type: 3}
+  partySprite: {fileID: 21300000, guid: d3af7b4118926054382941515f15e37c, type: 3}
+  type1: 8
+  type2: 15
+  maxHp: 50
+  attack: 60
+  defense: 95
+  spAttack: 120
+  spDefense: 70
+  speed: 70
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bfb30b639b7fab54da0daaa60acd06e3, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 78ec6952c0277ef46827b93d32d24430, type: 2}
+    level: 1

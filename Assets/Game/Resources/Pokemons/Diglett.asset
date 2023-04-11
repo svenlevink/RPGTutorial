@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Diglett
+  m_EditorClassIdentifier: 
+  name: Diglett
+  description: 
+  frontSprite: {fileID: 21300000, guid: c5d6b7a183964d648bf40f617f248546, type: 3}
+  backSprite: {fileID: 21300000, guid: 51929d5192af5154c9b2f707876c45a4, type: 3}
+  partySprite: {fileID: 21300000, guid: 6241d48db0641f248bca0296d57c6cff, type: 3}
+  type1: 9
+  type2: 0
+  maxHp: 10
+  attack: 55
+  defense: 25
+  spAttack: 35
+  spDefense: 45
+  speed: 95
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: a463b26d0064eae42bf4e43b6beee527, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 72b119d87a51d484db2dbe0bcd4efcad, type: 2}
+    level: 1

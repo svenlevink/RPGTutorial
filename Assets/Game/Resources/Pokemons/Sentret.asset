@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Sentret
+  m_EditorClassIdentifier: 
+  name: Sentret
+  description: 
+  frontSprite: {fileID: 21300000, guid: 33838c6c729584144b55d12b375cffc0, type: 3}
+  backSprite: {fileID: 21300000, guid: eef35564a2a057c469b5869108e38d36, type: 3}
+  partySprite: {fileID: 21300000, guid: a22d21356b2e63d44ab3705ac18fe313, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 35
+  attack: 46
+  defense: 34
+  spAttack: 35
+  spDefense: 45
+  speed: 20
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 664cd4c35594b6649b9048d17e57d232, type: 2}
+    level: 1

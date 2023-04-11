@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Phanphy
+  m_EditorClassIdentifier: 
+  name: Phanphy
+  description: 
+  frontSprite: {fileID: 21300000, guid: 8da2a025c3749664f86912394fc9bc54, type: 3}
+  backSprite: {fileID: 21300000, guid: 200ac017f86dae94583091e15466b1d8, type: 3}
+  partySprite: {fileID: 21300000, guid: 5fe613194a5053842a8c4cdc2a27ea78, type: 3}
+  type1: 9
+  type2: 0
+  maxHp: 90
+  attack: 60
+  defense: 60
+  spAttack: 40
+  spDefense: 40
+  speed: 40
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0e73ddc587829344aa9357b34532bf38, type: 2}
+    level: 1

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Xatu
+  m_EditorClassIdentifier: 
+  name: Xatu
+  description: 
+  frontSprite: {fileID: 21300000, guid: 10e4fd977e865ae4b8055538e3df74e7, type: 3}
+  backSprite: {fileID: 21300000, guid: 7908b2a05b8832446b5980d4e9f3830e, type: 3}
+  partySprite: {fileID: 21300000, guid: 91424ba6c175d0749a6d0209dcd1f778, type: 3}
+  type1: 11
+  type2: 5
+  maxHp: 65
+  attack: 75
+  defense: 70
+  spAttack: 95
+  spDefense: 70
+  speed: 95
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: af079aedae87efb45bd746c3a759b137, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 62dfcd2b605d94240ba4fe9256ede196, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bfa3ebe235ae38a48adf4af2d8f946cd, type: 2}
+    level: 1

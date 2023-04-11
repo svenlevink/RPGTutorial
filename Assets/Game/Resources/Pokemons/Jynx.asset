@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Jynx
+  m_EditorClassIdentifier: 
+  name: Jynx
+  description: 
+  frontSprite: {fileID: 21300000, guid: 3b5664693fce63d4ea36301285ee1222, type: 3}
+  backSprite: {fileID: 21300000, guid: 29d6cfdaf92f1cb418967fd66e7ae422, type: 3}
+  partySprite: {fileID: 21300000, guid: f7726aae1f53c6d4cb8ee812d9d4b670, type: 3}
+  type1: 12
+  type2: 11
+  maxHp: 65
+  attack: 50
+  defense: 35
+  spAttack: 115
+  spDefense: 95
+  speed: 95
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 72b119d87a51d484db2dbe0bcd4efcad, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 14dd9b185f916ed4c83db36d38be1066, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bfa3ebe235ae38a48adf4af2d8f946cd, type: 2}
+    level: 1

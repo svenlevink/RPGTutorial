@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Cleffa
+  m_EditorClassIdentifier: 
+  name: Cleffa
+  description: 
+  frontSprite: {fileID: 21300000, guid: 6e2224243a7ea3a4090071c8f34b4fc2, type: 3}
+  backSprite: {fileID: 21300000, guid: 56e2953131604cb4f9ec4535c8290aee, type: 3}
+  partySprite: {fileID: 21300000, guid: 8a2b5b8ecd80fb64eb1e1bfddf6d015a, type: 3}
+  type1: 18
+  type2: 0
+  maxHp: 50
+  attack: 25
+  defense: 28
+  spAttack: 45
+  spDefense: 55
+  speed: 15
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 2
+  - moveBase: {fileID: 11400000, guid: cf6a8c403f490a0439871461ff941e83, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 44cf15db8fe3c0d4faae1a9ce920881e, type: 2}
+    level: 4

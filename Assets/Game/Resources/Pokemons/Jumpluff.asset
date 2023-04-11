@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Jumpluff
+  m_EditorClassIdentifier: 
+  name: Jumpluff
+  description: 
+  frontSprite: {fileID: 21300000, guid: 074e859c25f41b2449f40b1a55f8b869, type: 3}
+  backSprite: {fileID: 21300000, guid: fd36979d6c41d3c419d247d0314ef2ad, type: 3}
+  partySprite: {fileID: 21300000, guid: febae7389351b384baa02e6f62fab2f0, type: 3}
+  type1: 4
+  type2: 5
+  maxHp: 75
+  attack: 55
+  defense: 70
+  spAttack: 55
+  spDefense: 95
+  speed: 110
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: ee1533510cdb1a640a7243b95a426dc9, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 03774c779d93fc944a7ca2c4191bacd1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 87127639aac2f5a4fae71e622f88fcd8, type: 2}
+    level: 1

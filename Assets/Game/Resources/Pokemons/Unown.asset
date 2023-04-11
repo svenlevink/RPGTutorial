@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Unown
+  m_EditorClassIdentifier: 
+  name: Unown
+  description: "\t\t"
+  frontSprite: {fileID: 21300000, guid: 56ccf9874887f324e82ec42bf837c36b, type: 3}
+  backSprite: {fileID: 21300000, guid: ea039001c411c614aaa2346273d3f88d, type: 3}
+  partySprite: {fileID: 21300000, guid: 5c22d5b526fead64ba7cf2cd164e32e1, type: 3}
+  type1: 11
+  type2: 0
+  maxHp: 48
+  attack: 72
+  defense: 48
+  spAttack: 72
+  spDefense: 48
+  speed: 48
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: b8f206d0c80a0f044b60436414178fb0, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 6c8caa08f25897041b2e1a350d0c07b7, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: bfa3ebe235ae38a48adf4af2d8f946cd, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 61895cbc70e46cd4b9d2eb5a35a95958, type: 2}
+    level: 0

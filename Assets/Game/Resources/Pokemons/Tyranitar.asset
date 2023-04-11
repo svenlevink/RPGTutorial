@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Tyranitar
+  m_EditorClassIdentifier: 
+  name: Tyranitar
+  description: 
+  frontSprite: {fileID: 21300000, guid: 0cdf1f1ad2064734b9cd97bca7dcb8fd, type: 3}
+  backSprite: {fileID: 21300000, guid: 9df19bddda5106241852fa11fbf69b49, type: 3}
+  partySprite: {fileID: 21300000, guid: 30a69105a6346774a9b347c9334a7c27, type: 3}
+  type1: 10
+  type2: 17
+  maxHp: 100
+  attack: 134
+  defense: 110
+  spAttack: 95
+  spDefense: 100
+  speed: 61
+  expYield: 300
+  growthRate: 3
+  catchRate: 45
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 56af8be3551bef34e8a1fb4126b51ad9, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 838a4c57c099f7443b4ba72e3842bf26, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 18cbfd0c63ff2834c9b11bf7eddb1a65, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: fe3988dfa1bccc34dbd71a7f20c58948, type: 2}
+    level: 1

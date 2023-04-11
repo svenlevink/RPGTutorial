@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Omanyte
+  m_EditorClassIdentifier: 
+  name: Omanyte
+  description: 
+  frontSprite: {fileID: 21300000, guid: 6665a1433145b374699bac5802682bc0, type: 3}
+  backSprite: {fileID: 21300000, guid: 82c66e794471bc448aab3bb80fde9317, type: 3}
+  partySprite: {fileID: 21300000, guid: 616faf3abfd23634db4396bc20cc2f5b, type: 3}
+  type1: 10
+  type2: 3
+  maxHp: 35
+  attack: 40
+  defense: 100
+  spAttack: 90
+  spDefense: 55
+  speed: 35
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 72b119d87a51d484db2dbe0bcd4efcad, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bdb39ad612827ef44bc7bdd6b5f7308c, type: 2}
+    level: 1

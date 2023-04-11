@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Meowth
+  m_EditorClassIdentifier: 
+  name: Meowth
+  description: 
+  frontSprite: {fileID: 21300000, guid: fe0080de7fc0b2c468fb30710945734b, type: 3}
+  backSprite: {fileID: 21300000, guid: af0caf56938a3aa42b36e505d6bf7b4e, type: 3}
+  partySprite: {fileID: 21300000, guid: 2cff0b8c2517a464686a20772299cead, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 40
+  attack: 45
+  defense: 35
+  spAttack: 40
+  spDefense: 40
+  speed: 90
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: aac20e81e4438e14bab3470dc8a37c3b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 664cd4c35594b6649b9048d17e57d232, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: d2c9cf2f923602f45b8539d22a6444fb, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3e44d00529bf9e640802cadf0129314b, type: 2}
+    level: 1

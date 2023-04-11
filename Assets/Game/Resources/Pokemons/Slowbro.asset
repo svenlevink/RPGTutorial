@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Slowbro
+  m_EditorClassIdentifier: 
+  name: Slowbro
+  description: 
+  frontSprite: {fileID: 21300000, guid: bf063f332068b1545ac004f2f871efed, type: 3}
+  backSprite: {fileID: 21300000, guid: 84e63c67dd2b01945be271f29d6e96ef, type: 3}
+  partySprite: {fileID: 21300000, guid: 3b1a6943b6cb4c948bc854fcdd0d5cb7, type: 3}
+  type1: 3
+  type2: 11
+  maxHp: 95
+  attack: 75
+  defense: 110
+  spAttack: 100
+  spDefense: 80
+  speed: 30
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: aac20e81e4438e14bab3470dc8a37c3b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 664cd4c35594b6649b9048d17e57d232, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bdb39ad612827ef44bc7bdd6b5f7308c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b3eb02e97c09439498379ac17c64ac5c, type: 2}
+    level: 1

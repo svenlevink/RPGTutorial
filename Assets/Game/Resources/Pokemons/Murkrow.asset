@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Murkrow
+  m_EditorClassIdentifier: 
+  name: Murkrow
+  description: 
+  frontSprite: {fileID: 21300000, guid: 1f164b5f75f4dfc498978e3196592813, type: 3}
+  backSprite: {fileID: 21300000, guid: cc0df3a0a611de6459948fadd70b4aaa, type: 3}
+  partySprite: {fileID: 21300000, guid: 851f64abe16c7f0408c8009db4ac3009, type: 3}
+  type1: 17
+  type2: 5
+  maxHp: 60
+  attack: 85
+  defense: 42
+  spAttack: 85
+  spDefense: 42
+  speed: 91
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e873b7e905d84da4fa8f294b084cc694, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: af079aedae87efb45bd746c3a759b137, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6c8caa08f25897041b2e1a350d0c07b7, type: 2}
+    level: 1

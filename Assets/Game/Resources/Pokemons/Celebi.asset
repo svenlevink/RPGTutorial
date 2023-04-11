@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Celebi
+  m_EditorClassIdentifier: 
+  name: Celebi
+  description: 
+  frontSprite: {fileID: 21300000, guid: 03d5741ec97a5f14eaae906d892f4c1e, type: 3}
+  backSprite: {fileID: 21300000, guid: 13c5335e4b7fdbe459429fae085db49b, type: 3}
+  partySprite: {fileID: 21300000, guid: caa8455a678a4ce41ad4c538173c4090, type: 3}
+  type1: 11
+  type2: 4
+  maxHp: 100
+  attack: 100
+  defense: 100
+  spAttack: 100
+  spDefense: 100
+  speed: 100
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f0a60625eaa02ca4b9584fb9f19ad535, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 62dfcd2b605d94240ba4fe9256ede196, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 753c8bf0339f915479d1fcfa3ff3fe49, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 66fbffac2bbe8d046b5e450c2692b2d3, type: 2}
+    level: 1

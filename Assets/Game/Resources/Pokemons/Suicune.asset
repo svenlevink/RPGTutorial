@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Suicune
+  m_EditorClassIdentifier: 
+  name: Suicune
+  description: 
+  frontSprite: {fileID: 21300000, guid: a32a8176de6922e47812254eb7f8ec59, type: 3}
+  backSprite: {fileID: 21300000, guid: a229c94bfcdb52a4ebe344a660114aec, type: 3}
+  partySprite: {fileID: 21300000, guid: 5d4e5964aea2d474cbb491d76a72928f, type: 3}
+  type1: 3
+  type2: 0
+  maxHp: 100
+  attack: 75
+  defense: 115
+  spAttack: 90
+  spDefense: 115
+  speed: 85
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 80ddc50a02e0ef943a31eafe47888260, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 706655a9cf4ab1e449c30e4c06064e29, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e12789a4e68daf24c9faa1d950ca534f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 56af8be3551bef34e8a1fb4126b51ad9, type: 2}
+    level: 1

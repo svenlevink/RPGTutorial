@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Blissey
+  m_EditorClassIdentifier: 
+  name: Blissey
+  description: 
+  frontSprite: {fileID: 21300000, guid: 5a5d1b5aa1664814787c303f533632e4, type: 3}
+  backSprite: {fileID: 21300000, guid: 265df85249dd8f14aaf43db8406f8dc7, type: 3}
+  partySprite: {fileID: 21300000, guid: 923573d7cfac13a448c18bd19f9a6402, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 255
+  attack: 10
+  defense: 10
+  spAttack: 75
+  spDefense: 135
+  speed: 55
+  expYield: 635
+  growthRate: 0
+  catchRate: 30
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: d7f9eba7e26ef3042b4a840e755401c6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2a65e45084862a54e91b7ff2e5465be5, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 91b58e21d5f400b42b9838d463786f00, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c61a4d38b78b1344193a0e6e4d85bdbf, type: 2}
+    level: 1

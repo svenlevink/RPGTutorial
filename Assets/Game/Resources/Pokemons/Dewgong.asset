@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Dewgong
+  m_EditorClassIdentifier: 
+  name: Dewgong
+  description: 
+  frontSprite: {fileID: 21300000, guid: 1304c12b46267ec4881268f641ce3b6c, type: 3}
+  backSprite: {fileID: 21300000, guid: 98a6e92f0fc3d4f4492107917f385e6f, type: 3}
+  partySprite: {fileID: 21300000, guid: 80351060e18c6be438ea351af039c15d, type: 3}
+  type1: 3
+  type2: 12
+  maxHp: 90
+  attack: 70
+  defense: 80
+  spAttack: 70
+  spDefense: 95
+  speed: 70
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 14dd9b185f916ed4c83db36d38be1066, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 664cd4c35594b6649b9048d17e57d232, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bdb39ad612827ef44bc7bdd6b5f7308c, type: 2}
+    level: 1

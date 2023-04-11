@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Wartortle
+  m_EditorClassIdentifier: 
+  name: Wartortle
+  description: 
+  frontSprite: {fileID: 21300000, guid: 9b0e6fc5f36b9ec4197e23d680b3707a, type: 3}
+  backSprite: {fileID: 21300000, guid: a8996d56d892b1d46904843f44b01ebc, type: 3}
+  partySprite: {fileID: 21300000, guid: e70816a61c154c24ebc89f17335f5f61, type: 3}
+  type1: 3
+  type2: 0
+  maxHp: 59
+  attack: 63
+  defense: 80
+  spAttack: 65
+  spDefense: 80
+  speed: 58
+  learnableMoves: []

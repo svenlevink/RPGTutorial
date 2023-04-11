@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Slugma
+  m_EditorClassIdentifier: 
+  name: Slugma
+  description: 
+  frontSprite: {fileID: 21300000, guid: 2761733dc4647104588dcf041b62bdda, type: 3}
+  backSprite: {fileID: 21300000, guid: 4e330f4f0c5bceb4e8f995d2126f399f, type: 3}
+  partySprite: {fileID: 21300000, guid: dee1b005e356c61479539bfa7409fbfe, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 40
+  attack: 40
+  defense: 40
+  spAttack: 70
+  spDefense: 40
+  speed: 20
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 14d46ffeb329ae64aa22297164466f4d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3ef46184be0df124188a36eabe086ffa, type: 2}
+    level: 15

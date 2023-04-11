@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Zubat
+  m_EditorClassIdentifier: 
+  name: Zubat
+  description: 
+  frontSprite: {fileID: 21300000, guid: 000bc70c5f626db439210cf25d04a466, type: 3}
+  backSprite: {fileID: 21300000, guid: 3f5cf5ec985738746b439b99f46641dd, type: 3}
+  partySprite: {fileID: 21300000, guid: 6408efa968cb429429dd0e813f186b67, type: 3}
+  type1: 7
+  type2: 5
+  maxHp: 40
+  attack: 45
+  defense: 35
+  spAttack: 30
+  spDefense: 40
+  speed: 55
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: aac20e81e4438e14bab3470dc8a37c3b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 87127639aac2f5a4fae71e622f88fcd8, type: 2}
+    level: 1

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Mr. Mime
+  m_EditorClassIdentifier: 
+  name: Mr. Mime
+  description: 
+  frontSprite: {fileID: 21300000, guid: 32dd57789cb34dc4786b279ee3d05443, type: 3}
+  backSprite: {fileID: 21300000, guid: 955bb96040717884f94a0ce3ac3a8383, type: 3}
+  partySprite: {fileID: 21300000, guid: 335e86496ffb55d4b8ae7087262669ea, type: 3}
+  type1: 11
+  type2: 18
+  maxHp: 40
+  attack: 45
+  defense: 65
+  spAttack: 100
+  spDefense: 120
+  speed: 90
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: b3eb02e97c09439498379ac17c64ac5c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 72b119d87a51d484db2dbe0bcd4efcad, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 61895cbc70e46cd4b9d2eb5a35a95958, type: 2}
+    level: 1

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Pineco
+  m_EditorClassIdentifier: 
+  name: Pineco
+  description: 
+  frontSprite: {fileID: 21300000, guid: 85b4e22e8740d334c9316a9c5c365b20, type: 3}
+  backSprite: {fileID: 21300000, guid: 7e2231fd0abe7bf4c8de1e4c79455a3a, type: 3}
+  partySprite: {fileID: 21300000, guid: c2f079ec178da7a4f8e05da3520d0f94, type: 3}
+  type1: 13
+  type2: 0
+  maxHp: 50
+  attack: 65
+  defense: 90
+  spAttack: 35
+  spDefense: 35
+  speed: 15
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 03774c779d93fc944a7ca2c4191bacd1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7da6bf13a56c74e4ab8f0fa5adf9d37b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ab1fe45d1272eac478add8ae848a9b0f, type: 2}
+    level: 1

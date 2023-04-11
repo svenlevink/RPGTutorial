@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Marowak
+  m_EditorClassIdentifier: 
+  name: Marowak
+  description: 
+  frontSprite: {fileID: 21300000, guid: 0b53eb6138e02ee4d9760d987fcc2836, type: 3}
+  backSprite: {fileID: 21300000, guid: 39032e735543d6d4980913d3ae1263a1, type: 3}
+  partySprite: {fileID: 21300000, guid: aa5b8b830ea5bfa499cf4810659fe5db, type: 3}
+  type1: 9
+  type2: 0
+  maxHp: 60
+  attack: 80
+  defense: 110
+  spAttack: 50
+  spDefense: 80
+  speed: 45
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 72b119d87a51d484db2dbe0bcd4efcad, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3ef46184be0df124188a36eabe086ffa, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 96f09d4eda3d89a4f81fd71655ca83c5, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f0279a315604b9448b476cbaed6bd1c0, type: 2}
+    level: 1

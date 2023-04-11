@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Lanturn
+  m_EditorClassIdentifier: 
+  name: Lanturn
+  description: 
+  frontSprite: {fileID: 21300000, guid: 3b4e4521b9f748e48bdec1b59067750e, type: 3}
+  backSprite: {fileID: 21300000, guid: 61e59f24889df9946af64057e5749de6, type: 3}
+  partySprite: {fileID: 21300000, guid: 02f970e8ba6887b45b814863c6bf8b53, type: 3}
+  type1: 3
+  type2: 8
+  maxHp: 125
+  attack: 58
+  defense: 58
+  spAttack: 76
+  spDefense: 76
+  speed: 67
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 2
+  - moveBase: {fileID: 11400000, guid: bdb39ad612827ef44bc7bdd6b5f7308c, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 0259e8f18c562144c8798eb9a584bcbc, type: 2}
+    level: 7

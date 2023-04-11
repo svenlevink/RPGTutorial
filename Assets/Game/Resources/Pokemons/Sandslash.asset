@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Sandslash
+  m_EditorClassIdentifier: 
+  name: Sandslash
+  description: 
+  frontSprite: {fileID: 21300000, guid: 6e51c0caf9636074580442f77f8779d6, type: 3}
+  backSprite: {fileID: 21300000, guid: 3e0a752bc039712439487fc871a2e790, type: 3}
+  partySprite: {fileID: 21300000, guid: dcd6245421c5ba94bb4f3e5a738819ed, type: 3}
+  type1: 9
+  type2: 0
+  maxHp: 75
+  attack: 100
+  defense: 110
+  spAttack: 45
+  spDefense: 55
+  speed: 65
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: a463b26d0064eae42bf4e43b6beee527, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 03774c779d93fc944a7ca2c4191bacd1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 78ec6952c0277ef46827b93d32d24430, type: 2}
+    level: 1

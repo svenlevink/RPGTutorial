@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Pidgeot
+  m_EditorClassIdentifier: 
+  name: Pidgeot
+  description: 
+  frontSprite: {fileID: 21300000, guid: 4a7c9b91fdcf43642ae35cfcd28a8e0e, type: 3}
+  backSprite: {fileID: 21300000, guid: d85be8fa3d0054e4593fe299388c1256, type: 3}
+  partySprite: {fileID: 21300000, guid: 897f18337fab2b64dbb2b474b80cb530, type: 3}
+  type1: 1
+  type2: 5
+  maxHp: 83
+  attack: 80
+  defense: 75
+  spAttack: 70
+  spDefense: 70
+  speed: 101
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 87127639aac2f5a4fae71e622f88fcd8, type: 2}
+    level: 2
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 3dd452fcf2696e34ea63c83f75e8a496, type: 2}
+    level: 4

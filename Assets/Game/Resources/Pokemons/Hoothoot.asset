@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43fc460a991dc408513a757c932c48, type: 3}
+  m_Name: Hoothoot
+  m_EditorClassIdentifier: 
+  name: Hoothoot
+  description: 
+  frontSprite: {fileID: 21300000, guid: 83d177e24d8cbed40af499cd650daf74, type: 3}
+  backSprite: {fileID: 21300000, guid: 79b8a395343e0ce42be0bfc37cdf1479, type: 3}
+  partySprite: {fileID: 21300000, guid: 2c3647652accff34fb0114c5789a76af, type: 3}
+  type1: 1
+  type2: 5
+  maxHp: 60
+  attack: 30
+  defense: 30
+  spAttack: 36
+  spDefense: 56
+  speed: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f138579d99ec2b7488bb3e6cbbee0b9f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 664cd4c35594b6649b9048d17e57d232, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f090de1a9bddf734fac3b2966914452e, type: 2}
+    level: 1
